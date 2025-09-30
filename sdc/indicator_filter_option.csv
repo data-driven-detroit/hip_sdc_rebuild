@@ -1,0 +1,142 @@
+id,name,filter_type_id
+1,Male,1
+2,Female,1
+3,Under 5,2
+4,5 to 9,2
+5,10 to 14,2
+6,15 to 17,2
+7,Under 18,3
+8,18 to 64,3
+9,65 and over,3
+10,0-9,4
+11,10-19,4
+12,20-29,4
+13,30-39,4
+14,40-49,4
+15,50-59,4
+16,60-69,4
+17,70-79,4
+18,80+,4
+19,Under 5,5
+20,5,5
+21,6-11,5
+22,12-14,5
+23,15,5
+24,16-17,5
+25,15-19,6
+26,20-24,6
+27,25-29,6
+28,30-35,6
+29,35-39,6
+30,40-44,6
+31,45-50,6
+32,White,7
+33,Black,7
+34,Native American,7
+35,Asian,7
+36,Pacific Islander,7
+37,Other,7
+38,Two+,7
+39,Hispanic,7
+40,White Under 5,8
+41,White 5 to 9,8
+42,White 10 to 14,8
+43,White 15 to 17,8
+44,Black Under 5,9
+45,Black 5 to 9,9
+46,Black 10 to 14,9
+47,Black 15 to 17,9
+48,Asian Under 5,10
+49,Asian 5 to 9,10
+50,Asian 10 to 14,10
+51,Asian 15 to 17,10
+52,Hispanic Under 5,11
+53,Hispanic 5 to 9,11
+54,Hispanic 10 to 14,11
+55,Hispanic 15 to 17,11
+56,Under $50K,12
+57,$50K - $100K,12
+58,$100K - $200K,12
+59,Over $200K,12
+60,Non-poverty,13
+61,Poverty,13
+62,Less than high school graduate,14
+63,High school graduate (includes equivalency),14
+64,Some college,14
+65,Bachelor's degree or higher,14
+66,Less than high school graduate,14
+67,With children under 18 years,15
+68,No children under 18 years,15
+69,Drove alone,16
+70,Carpooled,16
+71,Public transit,16
+72,Bicycle,16
+73,Walked,16
+74,Other,16
+75,Worked at home,16
+76,No vehicle available,17
+77,1 vehicle available,17
+78,2 vehicles available,17
+79,3 vehicles available,17
+80,4 vehicles available,17
+81,5+ vehicles available,17
+82,Married,18
+83,Single,18
+84,Married couples,19
+85,Male householder,19
+86,Female householder,19
+87,Non-family,19
+88,Occupied,20
+89,Vacant,20
+90,Single unit,21
+91,Multi-unit,21
+92,Mobile home,21
+93,"Boat, RV, van, etc",21
+94,Owner occupied,22
+95,Renter occupied,22
+96,Before 1989,23
+97,1990-1999,23
+98,2000-2009,23
+99,2010-2017,23
+100,2018-2020,23
+101,Since 2021,23
+102,Same house year ago,24
+103,From same county,24
+104,From different county,24
+105,From different state,24
+106,From abroad,24
+107,Under $20K,25
+108,$20K - $35K,25
+109,$35K - $50K,25
+110,$50K - $75K,25
+111,Over $75K,25
+112,Under $100K,26
+113,$100K - $200K,26
+114,$200K - $300K,26
+115,$300K - $400K,26
+116,$400K - $500K,26
+117,$500K - $1M,26
+118,Over $1M,26
+119,High school grad or higher,27
+120,Bachelor's degree or higher,27
+121,No degree,28
+122,High school,28
+123,Some college,28
+124,Bachelor's,28
+125,Post-grad,28
+126,Europe,29
+127,Asia,29
+128,Africa,29
+129,Oceania,29
+130,Latin America,29
+131,North America,29
+132,English only,30
+133,Spanish,30
+134,Indo-European,30
+135,Asian/Pacific Islander,30
+136,Other,30
+137,WWII,31
+138,Korea,31
+139,Vietnam,31
+140,Gulf (1990s),31
+141,Gulf (2001-),31

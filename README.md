@@ -53,6 +53,8 @@ The `indicator_value` table is the central table in the system. It's has keys to
 
 ## How we're going to create these tables
 
+There are three directories with tables that must be filled out to capture the profile structure of HIP and SDC. Two of them are labeled, 'hip' and 'sdc.' The Third is labeled 'shared.' The 'shared' directory has tables that relate to locations. These tables should be identical between HIP and SDC so there is no need to have separate source files. Our goal is to completely fill out all of these files.
+
 ### Profile structure tables
 
 For every table besides the `location` table and the `indicator_value` table, we'll create these mostly by hand. These are easier to create, and many are already complete. Review the data dictionaries for each of these tables and then walk through the SDC and HIP profiles recording all sections, categories, and indicator titles, qualifiers, ands filter. Collect any issues that you find or questions in the corresponding ETL board for HIP or SDC on Asana.

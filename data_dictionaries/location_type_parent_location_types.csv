@@ -1,1 +1,4 @@
 field_name,description
+id,"The database id for this table"
+from_locationtype_id,"The id from location type table of the 'child' location"
+to_locationtype_id,"The id from the location type table of the 'parent' location"

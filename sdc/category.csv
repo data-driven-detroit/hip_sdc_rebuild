@@ -1,0 +1,34 @@
+id,name,section_id
+0,"Youth population, sex & age",0
+1,"Youth age, race & ethnicity",0
+2,"Boys & young male population, age, race & ethnicity",0
+3,Households,0
+4,Families with children,0
+5,Marital status,0
+6,Births,0
+7,Language,0
+8,School enrollment,1
+9,High school graduation,1
+10,Educational attainment,1
+11,Child care,1
+12,Free and reduced school lunch,1
+13,College enrollment and readiness,1
+14,Student mobility and chronic absenteeism,1
+15,Income,2
+16,Child poverty,2
+17,Poverty,2
+18,Food assistance program participation,2
+19,Employment,2
+20,Transportation to work,2
+21,Vehicle availability,2
+22,Units & occupancy,3
+23,Housing costs,3
+24,Housing value,3
+25,Geographical mobility,3
+26,Infant mortality,4
+27,Immunizations,4
+28,Elevated blood lead levels,4
+29,Hospital visits through Medicaid,4
+30,Health insurance,4
+31,Place of birth,5
+32,Veteran status,5
