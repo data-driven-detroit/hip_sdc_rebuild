@@ -1,0 +1,3 @@
+field_name,description
+id,"The database id for this table"
+name,"The name describing the data filter type"

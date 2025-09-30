@@ -1,0 +1,5 @@
+field_name,description
+id,"The database id for this table"
+name,"The name describing the associated portion of the indicator"
+sort_order,"The order that the portion should appear in a chart"
+indicator_filter_type_id,"The id referencing type of the filter in the indicator_filter_type table"

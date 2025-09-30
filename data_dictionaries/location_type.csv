@@ -1,0 +1,5 @@
+field_name,description
+id,"The database id for this table"
+name,"The name of the geography type"
+sort_order,"The order that these should appear in results"
+

@@ -1,0 +1,8 @@
+field_name,description
+id,"The database id for this table"
+name,"The name of the section--on SDC this shows up in yellow with a line
+underneath"
+sort_order,"Which section should be place first, second, etc."
+color,"Not used on SDC"
+image,"Not used on SDC"
+anchor,"The anchor text for permalink"

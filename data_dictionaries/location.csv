@@ -1,0 +1,6 @@
+field_name,description
+id,"The database id for this table"
+name,"The name of the location"
+location_type_id,"The id of the location type from the 'location type' table"
+geometry,"The geometry: should be transformed to the correct EPSG (but which?)"
+color,"Not used for SDC"

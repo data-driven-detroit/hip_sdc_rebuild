@@ -1,0 +1,9 @@
+field_name,description
+id,"The database id for this table"
+name,"The category name. In SDC this shows up in the left-most column before the charts"
+about,"The text that shows up below the category name, often explainer text."
+sort_order,"Position within the section to display this category"
+color,"Not used for SDC"
+image,"Not used for SDC"
+anchor,"url item for linking to this portion of the page"
+section_id,"The section of the site to display this category"

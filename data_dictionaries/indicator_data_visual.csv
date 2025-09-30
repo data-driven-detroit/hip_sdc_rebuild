@@ -1,0 +1,10 @@
+field_name,description
+id,"The database id for this table"
+start_date,"The earliest date for indicator values that will be included in the visualization"
+end_date,"The latest date for indicator values that will be included in the visualization"
+data_visual_type,"One of the available visualization types (one of 'ban', 'column', 'donut', 'min_med_max', 'line')"
+location_comparison_type,"Some visualizations allow for comparisons to other geographies, you can compare either to the parent geographies or the 'sibling' geographies"
+columns,"The number of columns that the visualization should occupy"
+color_scale_id,"The id of the color scale used for this visualization."
+indicator_id,"The indicator associated with this visualization"
+source_id,"The id of the source of the data shown."

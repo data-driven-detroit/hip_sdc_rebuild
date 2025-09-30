@@ -1,0 +1,9 @@
+field_name,description
+id,"The database id for this table"
+name,"The name of the indicator (title of chart)"
+qualifier,"The text that will show up at the bottom of the chart"
+sort_order,"The order within the category that the indicator will appear"
+indicator_type,"String literal of the available types: ['count', 'percentage', 'rate', 'median', 'index', 'average']"
+rate_per,"If the indicator_type is 'rate', the size the universe is scaled to" 
+formatter,"A formatting string for displaying the indicator value. See code for examples"
+category_id,"The id for the category where this indicator is found."
