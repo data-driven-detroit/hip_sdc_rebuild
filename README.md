@@ -8,6 +8,8 @@ This section will explain most of the tables that are used to create the profile
 
 ### Locations
 
+This is dependent on our [geographies](https://github.com/data-driven-detroit/geographies) ETL.
+
 Locations includes a few different tables
 
 - `location` The main table that holds all the geographies to which we're aggregating.
