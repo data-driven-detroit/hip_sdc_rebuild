@@ -39,3 +39,72 @@ id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id
 38,"High school grad or higher",,1,ban,,11
 39,"Bachelors degree or higher",,2,ban,,11
 40,"Population by highest level of education",,3,column,,11
+41,"Number of licensed childcare facilities",,1,ban,,12
+42,"Licensed child care facilities by type",,2,column,,12
+43,"Free child care programs by type",,3,column,,12
+44,"Total licensed capacity of child care facilities",,4,column,,12
+45,"Percent of total capacity in free child care programs, by program type",,5,column,,12
+46,"Ages 0-5",,1,column,,13
+47,"Ages 0-2",,2,column,,13
+48,"Ages 3-5",,3,column,,13
+49,"Ages 0-5",,1,column,,14
+50,"Ages 0-2",,2,column,,14
+51,"Ages 3-5",,3,column,,14
+52,"State subsidized (Michigan Child Development and Care Program) Seat Gap, by age",,1,column,,15
+53,"Federal subsidized (Early Head Start and Head Start programs) Seat Gap, by age",,2,column,,15
+54,"Percent of students reported eligible for free or reduced price lunches",,1,ban,,16
+55,"Percent of eligible for free or reduced price lunches by status",,2,column,,16
+56,"Average SAT score in all subjects",,1,ban,,17
+57,"Average SAT score in evidence-based reading and writing",,2,ban,,17
+58,"Average SAT score in math",,3,ban,,17
+59,"Percent of public highschool graduates who have enrolled in a college within 12 months of graduation",,4,column,,17
+60,"Percent of students who scored at, above or below college readiness proficiency on the SAT assessment in all subjects",,5,donut,,17
+61,Percent of students who scored at or above college readiness proficiency on the SAT test by subject,,6,column,,17
+62,Percent of public school students either leaving or entering a new school during the school year,,1,donut,,18
+63,Percent of public school students missing 10% or more school days,,2,donut,,18
+64,Per capita income,,1,ban,,19
+65,Median household income,,2,ban,,19
+66,Household income,,3,column,,19
+67,Children (Under 18) below poverty line,,1,ban,,20
+68,"Households with children (under 18) receiving SSI, cash or food/SNAP assistance",,2,ban,,20
+69,Children living below the poverty line by age,,3,column,,20
+70,Persons below poverty line,,1,ban,,21
+71,"Poverty rate by educational attainment, married couples",,2,column,,21
+72,"Poverty rate by educational attainment, male householder",,3,column,,21
+73,"Poverty rate by educational attainment, female householder",,4,column,,21
+74,Households with food/SNAP assistance in the past 12 months,,1,ban,,22
+75,Married Couples,,1,column,,23
+76,"Male Householder, no wife present",,2,column,,23
+77,"Female Householder, no husband present",,3,column,,23
+78,Unemployment rate,,1,ban,,24
+79,School enrollment and labor force (LF) participation for 16 - 19 year olds,,2,column,,24
+80,Mean travel time to work,,1,ban,,25
+81,Means of transportation to work,,2,column,,25
+82,Average number of vehicles available,,1,ban,,26
+83,"Distribution of vehicles available to workers, 16 years and over",,2,column,,26
+84,Number of housing units,,1,ban,,27
+85,Occupied vs. Vacant,,2,donut,,27
+86,Ownership of occupied units,,3,donut,,27
+87,Types of structure,,4,donut,,27
+88,"Year moved in, by percentage of population",,5,column,,27
+89,Median monthly housing costs,,1,ban,,28
+90,Percent of households spending 30% or more of household income on housing by household income,,2,column,,28
+91,Median value of owner-occupied housing units,,1,ban,,29
+92,Value of owner-occupied housing units,,2,column,,29
+93,Moved since previous year,,1,ban,,30
+94,Population migration since previous year,,2,column,,30
+95,Number of infant deaths,,1,ban,,31
+96,Infant deaths by cause,,2,donut,,31
+97,Fully immunized children aged 19-35 months,,1,ban,,32
+98,Immunized children aged 19-35 months by status,,2,column,,32
+99,Percent of individuals tested with an elevated blood lead level (defined as > 4.5 micrograms per deciliter),,1,ban,,33
+100,"Percent of individuals tested with an elevated blood lead level (defined as > 4.5 micrograms per deciliter), by age",,2,column,,33
+101,Percent of hospital visits by children on Medicaid that were to an emergency room or urgent care,,1,ban,,34
+102,"Percent of hospital visits that were to an emergency room, by age",,2,column,,34
+103,"Percent of hospital visits that were to an emergency room, by condition",,3,column,,34
+104,Persons without health insurance,,1,ban,,35
+105,Percent uninsured by age group,,2,column,,35
+106,Foreign-born population,,1,ban,,36
+107,Place of birth for foreign-born population,,2,column,,36
+108,Population with veteran status,,1,ban,,37
+109,Veterans by wartime service,,2,column,,37

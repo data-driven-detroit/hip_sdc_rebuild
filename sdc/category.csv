@@ -12,24 +12,28 @@ id,name,section_id
 10,High school graduation,1
 11,Educational attainment,1
 12,Child care,1
-12,Free and reduced school lunch,1
-13,College enrollment and readiness,1
-14,Student mobility and chronic absenteeism,1
-15,Income,2
-16,Child poverty,2
-17,Poverty,2
-18,Food assistance program participation,2
-19,Employment,2
-20,Transportation to work,2
-21,Vehicle availability,2
-22,Units & occupancy,3
-23,Housing costs,3
-24,Housing value,3
-25,Geographical mobility,3
-26,Infant mortality,4
-27,Immunizations,4
-28,Elevated blood lead levels,4
-29,Hospital visits through Medicaid,4
-30,Health insurance,4
-31,Place of birth,5
-32,Veteran status,5
+13,Child care seat gap and quality seat gap,1
+14,Child care service level gap,1
+15,Subsidized child care program gaps,1
+16,Free and reduced school lunch,1
+17,College enrollment and readiness,1
+18,Student mobility and chronic absenteeism,1
+19,Income,2
+20,Child poverty,2
+21,Poverty,2
+22,Food assistance program participation,2
+23,Household food/SNAP assistance participation in the last 12 months by household type,2
+24,Employment,2
+25,Transportation to work,2
+26,Vehicle availability,2
+27,Units & occupancy,3
+28,Housing costs,3
+29,Housing value,3
+30,Geographical mobility,3
+31,Infant mortality,4
+32,Immunizations,4
+33,Elevated blood lead levels,4
+34,Hospital visits through Medicaid,4
+35,Health insurance,4
+36,Place of birth,5
+37,Veteran status,5
