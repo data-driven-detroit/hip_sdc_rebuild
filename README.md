@@ -59,7 +59,7 @@ There are three directories with tables that must be filled out to capture the p
 
 ### Profile structure tables
 
-For every table besides the `location` table and the `indicator_value` table, we'll create these mostly by hand. These are easier to create, and many are already complete. Review the data dictionaries for each of these tables and then walk through the SDC and HIP profiles recording all sections, categories, and indicator titles, qualifiers, ands filter. Collect any issues that you find or questions in the corresponding ETL board for HIP or SDC on Asana.
+For every table besides the `location` table and the `indicator_value` table, we'll create these mostly by hand. These are easier to create, and many are already complete. Review the data dictionaries for each of these tables and then walk through the SDC and HIP profiles recording all sections, categories, and indicator titles, qualifiers, and filters. Collect any issues that you find or questions in the corresponding ETL board for HIP or SDC on Asana.
 
 ### Values table ETL
 
