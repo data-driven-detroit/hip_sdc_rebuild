@@ -60,7 +60,7 @@ id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id,
 0,Land area covered by impervious surfaces,,-1,ban,,,-1
 0,Residents 65 or older living alone,,-1,ban,,,-1
 0,Households without internet access,,-1,ban,,,-1
-0,"Percent of land area proximity to Climate Adaptive Amenities (2015,,-1,ban,,,-1
+0,"Percent of land area proximity to Climate Adaptive Amenities",,-1,ban,,,-1
 0,Land area covered by CDO or GRO service areas,,-1,ban,,,-1
 0,Distribution of occupancy by tenure status,,-1,ban,,,-1
 0,Distribution of rental unit size,,-1,ban,,,-1
