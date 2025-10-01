@@ -1,1 +1,93 @@
 id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id,
+0,Number of housing units,,-1,ban,,,-1
+0,Percent of families with related children under 18,,-1,ban,,,-1
+0,Percent of households with children under 18,,-1,ban,,,-1
+0,Total number of vacant housing units,,-1,ban,,,-1
+0,Percent of housing units vacant,,-1,ban,,,-1
+0,Total number of demolitions,,-1,ban,,,-1
+0,Median demolition cost,,-1,ban,,,-1
+0,Total number of building permits,,-1,ban,,,-1
+0,Median estimated permit cost,,-1,ban,,,-1
+0,Total tax foreclosures,,-1,ban,,,-1
+0,Number of evictions filed,,-1,ban,,,-1
+0,Cases filed where the landlord has a certificate of compliance,,-1,ban,,,-1
+0,Total number of transactions,,-1,ban,,,-1
+0,Number of probable rental units,,-1,ban,,,-1
+0,Number of sewer backups,,-1,ban,,,-1
+0,Daily Average PM2.5 concentration,,-1,ban,,,-1
+0,Walkability Score,,-1,ban,,,-1
+0,Total properties,,-1,ban,,,-1
+0,Mean taxable value over $0,,-1,ban,,,-1
+0,Median taxable value over $0,,-1,ban,,,-1
+0,Total properties owned by the DLBA,,-1,ban,,,-1
+0,Total DLBA sales,,-1,ban,,,-1
+0,Total number of blight tickets,,-1,ban,,,-1
+0,Number of households,,-1,ban,,,-1
+0,Persons per household,,-1,ban,,,-1
+0,Number of children under 18 (2018-2021),,-1,ban,,,-1
+0,Per capita income (2018-2021),,-1,ban,,,-1
+0,Median household income (2018-2021),,-1,ban,,,-1
+0,Persons below poverty line (2018-2021),,-1,ban,,,-1
+0,Mean number of vehicles available,,-1,ban,,,-1
+0,Total registered voters,,-1,ban,,,-1
+0,Total population 18 years and older,,-1,ban,,,-1
+0,Number of children 5 to 9 years enrolled in school,,-1,ban,,,-1
+0,Number of children 5 to 9 years not enrolled in school,,-1,ban,,,-1
+0,Graduation Rate,,-1,ban,,,-1
+0,Number of licensed child care facilities,,-1,ban,,,-1
+0,Total capacity of licensed child care facilities,,-1,ban,,,-1
+0,Distribution of occupancy,,-1,ban,,,-1
+0,Renter-occupied or owner-occupied by race,,-1,ban,,,-1
+0,Own Children Under 18 Years by Family Type,,-1,ban,,,-1
+0,Distribution of demolitions by company contracted for demolition,,-1,ban,,,-1
+0,Demolitions by month,,-1,ban,,,-1
+0,Distribution of building permit types,,-1,ban,,,-1
+0,Number of cases by type,,-1,ban,,,-1
+0,Percent of cases with legal representation for tenants,,-1,ban,,,-1
+0,Percent of cases with legal representation for landlords,,-1,ban,,,-1
+0,Percent of judgements that are default by month,,-1,ban,,,-1
+0,Percentage of property sales by type of deed,,-1,ban,,,-1
+0,Percentage of property sales by month,,-1,ban,,,-1
+0,Percentage of property sales by price,,-1,ban,,,-1
+0,Percent of units that are probably rentals,,-1,ban,,,-1
+0,Percent of rental parcels owned by a corporate owner,,-1,ban,,,-1
+0,Percent of rental parcels transacted in the last three years,,-1,ban,,,-1
+0,Percent of rental parcel owners by owner location,,-1,ban,,,-1
+0,Share of parcels by owner landlord type,,-1,ban,,,-1
+0,Count of probable rental parcels with lead clearance certificates,,-1,ban,,,-1
+0,Area Covered by tree canopy,,-1,ban,,,-1
+0,Percent land area near toxic hazards,,-1,ban,,,-1
+0,Land area covered by impervious surfaces,,-1,ban,,,-1
+0,Residents 65 or older living alone,,-1,ban,,,-1
+0,Households without internet access,,-1,ban,,,-1
+0,"Percent of land area proximity to Climate Adaptive Amenities (2015,,-1,ban,,,-1
+0,Land area covered by CDO or GRO service areas,,-1,ban,,,-1
+0,Distribution of occupancy by tenure status,,-1,ban,,,-1
+0,Distribution of rental unit size,,-1,ban,,,-1
+0,Distribution of rents,,-1,ban,,,-1
+0,Distribution of owner-occupied housing value,,-1,ban,,,-1
+0,Housing burden by tenure,,-1,ban,,,-1
+0,Distribution of properties by PRE status,,-1,ban,,,-1
+0,Distribution of properties by taxable value,,-1,ban,,,-1
+0,Distribution of properties by taxable status,,-1,ban,,,-1
+0,Distribution of DLBA sales by type,,-1,ban,,,-1
+0,Distribution of DLBA auction sale prices,,-1,ban,,,-1
+0,Distribution of DLBA sales to community partners by property classes,,-1,ban,,,-1
+0,Distribution of bedrooms per unit,,-1,ban,,,-1
+0,Utilities included in rent,,-1,ban,,,-1
+0,Owner-occupied housing units with substandard housing conditions,,-1,ban,,,-1
+0,Renter-occupied housing units with substandard housing conditions,,-1,ban,,,-1
+0,Blight violations by department,,-1,ban,,,-1
+0,Distribution of month violation issued,,-1,ban,,,-1
+0,Blight violations by type,,-1,ban,,,-1
+0,Population by household type,,-1,ban,,,-1
+0,Distribution of youth by sex,,-1,ban,,,-1
+0,Distribution of youth by age,,-1,ban,,,-1
+0,Household income,,-1,ban,,,-1
+0,Family poverty rate by educational attainment of householder,,-1,ban,,,-1
+0,"Vehicles available to workers, 16 years and over",,-1,ban,,,-1
+0,Distribution of registered voters by age group,,-1,ban,,,-1
+0,School enrollment for 5 to 9 year olds by school type and sex,,-1,ban,,,-1
+0,Licensed child care facilities by type,,-1,ban,,,-1
+0,Free child care programs by type,,-1,ban,,,-1
+0,"Percent of total capacity in free child care programs",,-1,ban,,,-1
