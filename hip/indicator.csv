@@ -1,4 +1,4 @@
-id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id,
+id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id
 0,Number of housing units,,-1,ban,,,-1
 0,Percent of families with related children under 18,,-1,ban,,,-1
 0,Percent of households with children under 18,,-1,ban,,,-1
