@@ -1,1 +1,30 @@
 id,name,section_id
+1,Housing occupancy,1
+2,Families with children,1
+3,Vacancy and demolitions,1
+4,Building permits,1
+5,Tax foreclosures,1
+6,Eviction Cases,2
+7,Case Judgments,2
+8,Property transactions,3
+9,Rentals,3
+10,Landlord Types,3
+11,Exposure,4
+12,Sensitivity,4
+13,Adaptive Capacity,4
+14,"Tenure status, rental size, & rents",5
+15,Rents & housing values,5
+16,Housing burden,5
+17,Tax & values,5
+18,DLBA ownership & sales,5
+19,Size & quality of housing units,6
+20,Blight violations,6
+21,Households,7
+22,"Youth population, sex, & age",7
+23,Income,7
+24,Poverty,7
+25,Vehicle availabilty,7
+26,Registered voter ages,7
+27,School enrollment,8
+28,High school graduation,8
+29,Child care,8
