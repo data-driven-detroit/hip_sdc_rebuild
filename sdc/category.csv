@@ -1,16 +1,17 @@
 id,name,section_id
 0,"Youth population, sex & age",0
-1,"Youth age, race & ethnicity",0
+1,"Child population by age, race, and ethnicity",0
 2,"Boys & young male population, age, race & ethnicity",0
 3,Households,0
 4,Families with children,0
 5,Marital status,0
 6,Births,0
 7,Language,0
-8,School enrollment,1
-9,High school graduation,1
-10,Educational attainment,1
-11,Child care,1
+8,Student proficiency,1
+9,School enrollment,1
+10,High school graduation,1
+11,Educational attainment,1
+12,Child care,1
 12,Free and reduced school lunch,1
 13,College enrollment and readiness,1
 14,Student mobility and chronic absenteeism,1

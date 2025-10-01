@@ -1,1 +1,11 @@
 id,name,sort_order
+1,congressional_district,1
+2,county,2
+3,county_subdivision,3
+4,elementary_school_district,4
+5,state,5
+6,state_house_district,6
+7,state_senate_district,7
+8,tract,8
+9,unified_school_district,9
+10,zcta,10

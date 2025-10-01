@@ -1,1 +1,41 @@
-id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id,
+id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id
+1,"Population",,1,ban,,,
+2,"approximate square miles",,2,ban,,,
+3,"people per square mile",,3,ban,,,
+4,"Number of children under 18",,1,ban,,,0
+5,"Distribution of youth by sex",,2,donut,,,0
+6,"Distribution of youth by age",,3,donut,,,0
+7,"Under 5",,1,column,,,1
+8,"5 to 9",,2,column,,,1
+9,"10 to 14",,3,column,,,1
+10,"15 to 17",,4,column,,,1
+11,"Number of male children under 18",,1,ban,,,2
+12,"Distribution of male youth by sex",,2,donut,,,2
+13,"Distribution of male youth by race",,3,donut,,,2
+14,"Number of households",,1,ban,,,3
+15,"Persons per household",,2,ban,,,3
+16,"Population by household type",,3,donut,,,3
+17,"Percent of families with related children under 18",,1,ban,,,4
+18,"Percent of households with children under 18",,2,ban,,,4
+19,"Own children under 18 years by family type",,3,donut,,,4
+20,"",,1,donut,,,5
+21,"Never married",,2,column,,,5
+22,"Now married",,3,column,,,5
+23,"Divorced",,4,column,,,5
+24,"Widowed",,5,column,,,5
+25,"Total births",,1,ban,,,6
+26,"Distribution of births by race and ethnicity",,2,donut,,,6
+27,"Distribution of births by select characteritic",,3,column,,,6
+28,"Women 15-50 who gave birth during past year",,4,ban,,,6
+29,"Women who gave birth during past year, by age group",,5,column,,,6
+30,"Language at home, 5 to 17",,1,donut,,,7
+31,"Language at home, adults 18+",,2,donut,,,7
+32,"Percent of third grade students who met or exceeded grade level standards in ELA",,1,donut,,8
+33,"Percent of eighth grade students who met or exceeded grade level standards in math",,2,donut,,8
+34,"Number of children 5 to 9 years enrolled in school",,1,ban,,9
+35,"Number of children 5 to 9 years not enrolled in school",,2,ban,,9
+36,"Graduation rate",,1,ban,,10
+37,"",,2,donut,,10
+38,"High school grad or higher",,1,ban,,11
+39,"Bachelors degree or higher",,2,ban,,11
+40,"Population by highest level of education",,3,column,,11
