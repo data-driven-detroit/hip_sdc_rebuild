@@ -107,5 +107,4 @@ id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id
 106,Foreign-born population,,1,ban,,,36
 107,Place of birth for foreign-born population,,2,column,,,36
 108,Population with veteran status,,1,ban,,,37
-109,Veterans by wartime service,,2,column,,37
-,
+109,Veterans by wartime service,,2,column,,,37
