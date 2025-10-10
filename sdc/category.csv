@@ -1,39 +1,39 @@
-id,name,section_id
-0,"Youth population, sex & age",0
-1,"Child population by age, race, and ethnicity",0
-2,"Boys & young male population, age, race & ethnicity",0
-3,Households,0
-4,Families with children,0
-5,Marital status,0
-6,Births,0
-7,Language,0
-8,Student proficiency,1
-9,School enrollment,1
-10,High school graduation,1
-11,Educational attainment,1
-12,Child care,1
-13,Child care seat gap and quality seat gap,1
-14,Child care service level gap,1
-15,Subsidized child care program gaps,1
-16,Free and reduced school lunch,1
-17,College enrollment and readiness,1
-18,Student mobility and chronic absenteeism,1
-19,Income,2
-20,Child poverty,2
-21,Poverty,2
-22,Food assistance program participation,2
-23,Household food/SNAP assistance participation in the last 12 months by household type,2
-24,Employment,2
-25,Transportation to work,2
-26,Vehicle availability,2
-27,Units & occupancy,3
-28,Housing costs,3
-29,Housing value,3
-30,Geographical mobility,3
-31,Infant mortality,4
-32,Immunizations,4
-33,Elevated blood lead levels,4
-34,Hospital visits through Medicaid,4
-35,Health insurance,4
-36,Place of birth,5
-37,Veteran status,5
+id,name,about,sort_order,color,image,section_id,anchor
+0,"Youth population, sex & age",nothing,1,,,0,youth-population-sex-and-age
+1,"Child population by age, race, and ethnicity",nothing,2,,,0,child-population-by-age-race-and-ethnicity
+2,"Boys & young male population, age, race & ethnicity",nothing,3,,,0,boys-and-young-male-population-age-race-and-ethnicity
+3,Households,nothing,1,,,0,households
+4,Families with children,nothing,2,,,0,families-with-children
+5,Marital status,nothing,3,,,0,marital-status
+6,Births,nothing,4,,,0,births
+7,Language,nothing,5,,,0,language
+8,Student proficiency,nothing,1,,,1,student-proficiency
+9,School enrollment,nothing,2,,,1,school-enrollment
+10,High school graduation,nothing,3,,,1,high-school-graduation
+11,Educational attainment,nothing,4,,,1,educational-attainment
+12,Child care,nothing,5,,,1,child-care
+13,Child care seat gap and quality seat gap,nothing,6,,,1,child-care-seat-gap-and-quality-seat-gap
+14,Child care service level gap,nothing,7,,,1,child-care-service-level-gap
+15,Subsidized child care program gaps,nothing,8,,,1,subsidized-child-care-program-gaps
+16,Free and reduced school lunch,nothing,9,,,1,free-and-reduced-school-lunch
+17,College enrollment and readiness,nothing,10,,,1,college-enrollment-and-readiness
+18,Student mobility and chronic absenteeism,nothing,11,,,1,student-mobility-and-chronic-absenteeism
+19,Income,nothing,1,,,2,income
+20,Child poverty,nothing,2,,,2,child-poverty
+21,Poverty,nothing,3,,,2,poverty
+22,Food assistance program participation,nothing,4,,,2,food-assistance-program-participation
+23,Household food/SNAP assistance participation in the last 12 months by household type,nothing,5,,,2,household-food-snap-assistance-participation-in-the-last-12-months-by-household-type
+24,Employment,nothing,6,,,2,employment
+25,Transportation to work,nothing,7,,,2,transportation-to-work
+26,Vehicle availability,nothing,8,,,2,vehicle-availability
+27,Units & occupancy,nothing,1,,,3,units-and-occupancy
+28,Housing costs,nothing,2,,,3,housing-costs
+29,Housing value,nothing,3,,,3,housing-value
+30,Geographical mobility,nothing,4,,,3,geographical-mobility
+31,Infant mortality,nothing,1,,,4,infant-mortality
+32,Immunizations,nothing,2,,,4,immunizations
+33,Elevated blood lead levels,nothing,3,,,4,elevated-blood-lead-levels
+34,Hospital visits through Medicaid,nothing,4,,,4,hospital-visits-through-medicaid
+35,Health insurance,nothing,5,,,4,health-insurance
+36,Place of birth,nothing,1,,,5,place-of-birth
+37,Veteran status,nothing,2,,,5,veteran-status

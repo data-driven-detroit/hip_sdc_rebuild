@@ -12,69 +12,46 @@ import tomllib
 from sqlalchemy import text, create_engine
 import geopandas as gpd
 import pandas as pd
-
+from hip_sdc_rebuild import get_engine
 
 WORKING_DIR = Path(__file__).parent
-SOURCE_GEO_TABLE = "geographies"
-
-
-def get_engine(dbname=None):
-    with open(WORKING_DIR / "config.toml", "rb") as f:
-        config = tomllib.load(f)
-
-    name = dbname or config["db"]["name"]
-    user = config["db"]["user"]
-    password = config["db"]["password"]
-    host = config["db"]["host"]
-    port = config["db"]["port"]
-
-    return create_engine(f"postgresql+psycopg://{user}:{password}@{host}:{port}/{name}")
+SOURCE_GEO_TABLE = "etl.geographies" # data database in edw
+DESTINATION_DB = "sdc_production"
 
 
 def location_types(source_db, target_db, load=True):
     print("Loading location types")
+    table = pd.read_csv(WORKING_DIR / "shared" / "location_type.csv")
 
-    stmt = text(f"""
-    SELECT 
-        ROW_NUMBER() OVER (ORDER BY geo_type) AS id, 
-        geo_type,
-        ROW_NUMBER() OVER (ORDER BY geo_type) AS sort_order
-    FROM (
-        SELECT DISTINCT geo_type
-        FROM {SOURCE_GEO_TABLE}
-    ) geotypes;
-    """)
-
-    loc_types = pd.read_sql(stmt, source_db)
-    
     if load:
         (
-            loc_types
-            .rename(columns={"geo_type": "name"})
-            .to_sql("location_type", target_db, index=False, if_exists="append")
+            table.to_sql("location_type", target_db, index=False, if_exists="append")
         )
 
-    return loc_types
+    return table
 
 
 def locations(loc_types, source_db, target_db, load=True):
     print("Loading locations")
 
-    stmt = text("""
+    stmt = text(f"""
     SELECT
         geoid AS id,
         geo_type,
         name,
-        ST_SETSRID(ST_SIMPLIFY(geometry, 0.001), ST_SRID(geometry)) AS geometry,
+        ST_SETSRID(ST_SIMPLIFY(geometry, 0.0004), ST_SRID(geometry)) AS geometry,
         NULL AS color
-    FROM geographies
+    FROM {SOURCE_GEO_TABLE}
     WHERE 
         start_date <= DATE '2023-01-01'
         AND end_date >= DATE '2023-01-01';
     """)
 
     locations = gpd.read_postgis(stmt, source_db, geom_col="geometry")
-    merged = locations.merge(loc_types.rename(columns={"id": "location_type_id"}), on="geo_type")
+    merged = locations.merge(
+        loc_types.rename(columns={"id": "location_type_id", "name": "geo_type"}), 
+        on="geo_type"
+    )
     
     if load:
         (
@@ -88,44 +65,25 @@ def locations(loc_types, source_db, target_db, load=True):
 
 def location_parents(loc_types, target_db, load=True):
     print("Loading location parents")
-    parent_config = pd.read_csv(WORKING_DIR / "conf" / "location_type_relationships.csv")
+    table = pd.read_csv(WORKING_DIR / "shared" / "location_type_parent_location_types.csv")
 
-    merged = (
-        parent_config
-        .merge(
-            loc_types.rename(
-                columns={"geo_type": "child_type", "id": "from_locationtype_id"}
-            ), 
-            on="child_type"
-        )
-        .merge(
-            loc_types.rename(
-                columns={"geo_type": "parent_type", "id": "to_locationtype_id"}
-            ), 
-            on="parent_type"
-        )
-        .assign(id=lambda df: range(len(df)))
-    )
 
     if load:
-        (
-            merged[["id", "from_locationtype_id", "to_locationtype_id"]]
-            .to_sql("location_type_parent_location_types", target_db, index=False, if_exists="replace")
-        )
+        table.to_sql("location_type_parent_location_types", target_db, index=False, if_exists="replace")
 
-    return merged
+    return table
 
 
 def main():
-    source_db = get_engine()
-    target_db = get_engine("sdc_test")
+    source_db = get_engine(WORKING_DIR)
+    target_db = get_engine(WORKING_DIR, DESTINATION_DB)
 
 
     # Before starting clear the target_db
     stmts = [
-        text("""DELETE FROM location CASCADE;"""),
-        text("""DELETE FROM location_type CASCADE;"""),
-        text("""DELETE FROM location_type_parent_location_types CASCADE;"""),
+         text("""DELETE FROM location CASCADE;"""),
+         text("""DELETE FROM location_type CASCADE;"""),
+         text("""DELETE FROM location_type_parent_location_types CASCADE;"""),
     ]
 
     with target_db.connect() as db:
