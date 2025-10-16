@@ -140,3 +140,6 @@ id,name,sort_order,indicator_filter_type_id
 139,Vietnam,3,31
 140,Gulf (1990s),4,31
 141,Gulf (2001-),5,31
+142,"Enrolled, public",1,32
+143,"Enrolled, private",2,32
+144,"Not enrolled",3,32

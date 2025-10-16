@@ -30,3 +30,4 @@ id,name
 29,birth_location
 30,language_spoken
 31,service_conflict
+32,enrollment_status

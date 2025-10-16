@@ -14,6 +14,7 @@ def clear_tables(destination_db):
     stmts = [
          text("""DELETE FROM section CASCADE;"""),
          text("""DELETE FROM category CASCADE;"""),
+         text("""DELETE FROM indicator_data_visual CASCADE;"""),
          text("""DELETE FROM indicator CASCADE;"""),
          text("""DELETE FROM indicator_filter_type CASCADE;"""),
          text("""DELETE FROM indicator_filter_option CASCADE;"""),
@@ -44,6 +45,14 @@ def load_indicators(destination_db):
     table = pd.read_csv(WORKING_DIR / "sdc" / "indicator.csv")
     table.to_sql("indicator", destination_db, index=False, if_exists="append")
 
+def load_visuals(destination_db):
+    print("Loading visuals")
+    table = pd.read_csv(WORKING_DIR / "sdc" / "indicator_data_visual.csv")
+
+    table["start_date"] = pd.to_datetime(table["start_date"])
+    table["end_date"] = pd.to_datetime(table["end_date"])
+
+    table.to_sql("indicator_data_visual", destination_db, index=False, if_exists="append")
 
 def load_filter_types(destination_db):
     print("Loading filter types")
@@ -71,9 +80,10 @@ def main():
     load_sections(destination_db)
     load_categories(destination_db)
     load_indicators(destination_db)
+    load_sources(destination_db)
+    load_visuals(destination_db)
     load_filter_types(destination_db)
     load_filter_options(destination_db)
-    load_sources(destination_db)
 
 
 if __name__ == "__main__":

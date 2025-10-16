@@ -35,7 +35,7 @@ id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id
 34,"Number of children 5 to 9 years enrolled in school",,1,ban,,,9
 35,"Number of children 5 to 9 years not enrolled in school",,2,ban,,,9
 36,"Graduation rate",,1,ban,,,10
-37,"",,2,donut,,,10
+37,"Graduation vs not graduated",,2,donut,,,10
 38,"High school grad or higher",,1,ban,,,11
 39,"Bachelors degree or higher",,2,ban,,,11
 40,"Population by highest level of education",,3,column,,,11
@@ -103,8 +103,13 @@ id,name,qualifier,sort_order,indicator_type,rate_per,formatter,category_id
 102,"Percent of hospital visits that were to an emergency room, by age",,2,column,,,34
 103,"Percent of hospital visits that were to an emergency room, by condition",,3,column,,,34
 104,Persons without health insurance,,1,ban,,,35
-105,Percent uninsured by age group,,2,column,,,35
-106,Foreign-born population,,1,ban,,,36
-107,Place of birth for foreign-born population,,2,column,,,36
-108,Population with veteran status,,1,ban,,,37
-109,Veterans by wartime service,,2,column,,,37
+105,Under 6,,2,column,,,35
+106,"6-17",,2,column,,,35
+107,"18-24",,2,column,,,35
+108,"25-34",,2,column,,,35
+109,"35-64",,2,column,,,35
+110,"65+",,2,column,,,35
+111,Foreign-born population,,1,ban,,,36
+112,Place of birth for foreign-born population,,2,column,,,36
+113,Population with veteran status,,1,ban,,,37
+114,Veterans by wartime service,,2,column,,,37

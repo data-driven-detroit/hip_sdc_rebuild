@@ -35,5 +35,6 @@ id,name,about,sort_order,color,image,section_id,anchor
 33,Elevated blood lead levels,nothing,3,,,4,elevated-blood-lead-levels
 34,Hospital visits through Medicaid,nothing,4,,,4,hospital-visits-through-medicaid
 35,Health insurance,nothing,5,,,4,health-insurance
-36,Place of birth,nothing,1,,,5,place-of-birth
-37,Veteran status,nothing,2,,,5,veteran-status
+36,Percent uninsured by age group,nothing,6,,,4,uninsured
+37,Place of birth,nothing,1,,,5,place-of-birth
+38,Veteran status,nothing,2,,,5,veteran-status
