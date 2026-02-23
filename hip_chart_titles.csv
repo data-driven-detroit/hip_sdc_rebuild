@@ -1,0 +1,126 @@
+chart_id,section,title,chart_type,qualifier
+stat-1,Housing occupancy,"Number of housing units 
+        
+            (2022)",stat,
+chart-pie-housing-units-occupancy_distribution,Housing occupancy,Distribution of occupancy (2022),pie,Universe: Occupied housing units
+chart-grouped_column-housing-units-occupancy_by_race,Housing occupancy,Renter-occupied or owner-occupied by race (2022),grouped_column,Universe: Occupied housing units; Hispanic includes respondents of any race. Other categories are non-Hispanic.
+stat-2,Families with children,"Percent of families with related children under 18 
+        
+            (2022)",stat,
+stat-3,Families with children,"Percent of households with children under 18 
+        
+            (2022)",stat,
+chart-pie-families-family_types-children,Families with children,Own Children Under 18 Years by Family Type (2022),pie,Universe: Own children under 18 years
+stat-4,Vacancy and demolitions,Total number of vacant housing units (2023),stat,
+stat-5,Vacancy and demolitions,Percent of housing units vacant (2023),stat,
+stat-6,Vacancy and demolitions,Total number of demolitions (2023),stat,
+stat-7,Vacancy and demolitions,Median demolition cost (2023),stat,
+chart-column-housing-units-demo_company_distribution,Vacancy and demolitions,Distribution of demolitions by company contracted for demolition (2023),column,Universe: Total housing unit demolitions
+chart-column-housing-units-demo_month_distribution,Vacancy and demolitions,Demolitions by month (2023),column,Universe: Total housing unit demolitions
+stat-8,Building permits,Total number of building permits (2023),stat,
+stat-9,Building permits,Median estimated permit cost (2023),stat,
+chart-column-housing-units-permit_type_distribution,Building permits,Distribution of building permit types (2023),column,Universe: Total number of building permits
+stat-10,Tax foreclosures,Total tax foreclosures (2023),stat,
+stat-11,Eviction Cases,Number of evictions filed (2022),stat,
+chart-column-evictions-cases-case_type_distribution,Eviction Cases,Number of cases by type (2022),column,Universe: Eviction cases by type
+stat-12,Eviction Cases,Cases filed where the landlord has a certificate of compliance (2022),stat,
+chart-pie-evictions-cases-tenant_legal_rep_distrubution,Eviction Cases,Percent of cases with legal representation for tenants (2022),pie,Universe: Cases with Legal Representation for tenants
+chart-pie-evictions-cases-landlord_legal_rep_distrubution,Eviction Cases,Percent of cases with legal representation for landlords (2022),pie,Universe: Cases with Legal Representation for landlords
+chart-column-evictions-case_month_distribution,Case Judgments,Percent of judgements that are default by month (2022),column,Universe: Eviction cases with default judgments
+stat-13,Property transactions,Total number of transactions (2021),stat,
+chart-column-housing-units-sale_type_distribution,Property transactions,Percentage of property sales by type of deed (2021),column,Universe: Total number of property sales
+chart-column-housing-units-sale_month_distribution,Property transactions,Percentage of property sales by month (2021),column,Universe: Total number of property sales
+chart-column-housing-units-sale_price_distribution,Property transactions,Percentage of property sales by price (2021),column,Universe: Total number of property sales
+stat-14,Rentals,Number of probable rental units (2021),stat,
+chart-pie-housing-units-rental_distribution,Rentals,Percent of units that are probably rentals (2021),pie,Universe: Housing units
+chart-pie-housing-units-corp_distribution,Rentals,Percent of rental parcels owned by a corporate owner (2021),pie,Universe: Properties
+chart-pie-housing-units-transaction_distribution,Rentals,Percent of rental parcels transacted in the last three years (2021),pie,Universe: Properties
+chart-pie-housing-units-location_distribution,Rentals,Percent of rental parcel owners by owner location (2021),pie,Universe: Properties
+chart-column-housing-units-landlord_distribution,Landlord Types,Share of parcels by owner landlord type (2021),column,Universe: Properties
+chart-pie-housing-units-lead_distribution,Landlord Types,Count of probable rental parcels with lead clearance certificates (2021),pie,Universe: Properties
+stat-15,Exposure,Number of sewer backups (2021),stat,
+chart-pie-housing-units-tree_distribution,Exposure,Area Covered by tree canopy (2015),pie,Universe: Total Land Area
+chart-pie-housing-units-hazards_distribution,Exposure,Percent land area near toxic hazards (2020),pie,Universe:
+chart-pie-housing-units-impervious_distribution,Exposure,Land area covered by impervious surfaces (2019),pie,Universe: Total Land Area
+stat-16,Exposure,Daily Average PM2.5 concentration (2021),stat,
+chart-pie-housing-units-alone_distribution,Sensitivity,Residents 65 or older living alone (2022),pie,Universe: Population 65 and over
+chart-pie-housing-units-internet_distribution,Sensitivity,Households without internet access (2022),pie,Universe: Total Households
+chart-pie-housing-units-amenities_distribution,Adaptive Capacity,"Percent of land area proximity to Climate Adaptive Amenities (2015, 2018)",pie,Universe: Total Land Area
+chart-pie-housing-units-cdo_distribution,Adaptive Capacity,Land area covered by CDO or GRO service areas (2018),pie,Universe: Total Land Area
+stat-17,Adaptive Capacity,Walkability Score (2021),stat,
+chart-pie-housing-units-tenure_distribution,"Tenure status, rental size & rents",Distribution of occupancy by tenure status (2022),pie,Universe: Housing units
+chart-pie-housing-units-home_size_distribution,"Tenure status, rental size & rents",Distribution of rental unit size (2022),pie,Universe: Renter-occupied housing units
+chart-column-housing-units-rent_distribution,Rents & housing values,Distribution of rents (2022),column,Universe: Renter-occupied housing units
+chart-column-housing-units-value_distribution,Rents & housing values,Distribution of owner-occupied housing value (2022),column,Universe: Owner-occupied housing units
+chart-grouped_column-housing-units-housing_burden,Housing burden,Housing burden by tenure (2022),grouped_column,Universe: Occupied housing hnits
+stat-18,Tax & values,Total properties (2023),stat,
+chart-column-housing-units-pre_status_distribution,Tax & values,Distribution of properties by PRE status (2023),column,Universe: Detroit Assessor's Office; Data Driven Detroit
+stat-19,Tax & values,Mean taxable value over $0 (2023),stat,
+stat-20,Tax & values,Median taxable value over $0 (2023),stat,
+chart-column-housing-units-sev_distribution,Tax & values,Distribution of properties by taxable value (2023),column,Universe: Housing units with Taxable Value
+chart-column-housing-units-taxable_status_distribution,Tax & values,Distribution of properties by taxable status (2023),column,Universe: Properties for which taxable status was determined
+stat-21,DLBA ownership & sales,Total properties owned by the DLBA (2023),stat,
+stat-22,DLBA ownership & sales,Total DLBA sales (2023),stat,
+chart-pie-housing-units-dlba_sale_type_distrubution,DLBA ownership & sales,Distribution of DLBA sales by type (2023),pie,Universe: Total DLBA sales
+chart-column-housing-units-dlba_auction_price_distrubution,DLBA ownership & sales,Distribution of DLBA auction sale prices (2023),column,Universe: DLBA auction sale price known
+chart-column-housing-units-dlba_cp_type_distrubution,DLBA ownership & sales,Distribution of DLBA sales to  community partners by property classes (2023),column,Universe: DLBA community partner sale; property class known
+chart-pie-housing-units-size_distribution,Size & quality of housing units,Distribution of bedrooms per unit (2022),pie,Universe: Housing units
+chart-pie-housing-units-utilities_distribution,Size & quality of housing units,Utilities included in rent (2022),pie,Universe: Renter-occupied housing units
+chart-pie-housing-units-owner_condition_distribution,Size & quality of housing units,Owner-occupied housing units with substandard housing conditions (2022),pie,Universe: Housing units
+chart-pie-housing-units-renter_condition_distribution,Size & quality of housing units,Renter-occupied housing units with substandard housing conditions (2022),pie,Universe: Occupied housing units
+stat-23,Blight violations,Total number of blight tickets (2023),stat,
+chart-pie-housing-units-department_ticket_distribution,Blight violations,Blight violations by department (2023),pie,Universe: Total number of blight tickets
+chart-column-housing-units-ticket_month_distribution,Blight violations,Distribution of month violation issued (2023),column,Universe: Total number of blight tickets
+chart-pie-housing-units-ticket_type_distribution,Blight violations,Blight violations by type (2023),pie,Universe: Total number of blight tickets
+stat-24,Households,"Number of households 
+        
+            (2022)",stat,
+stat-25,Households,"Persons per household 
+        
+            (2022)",stat,
+chart-pie-families-households-distribution,Households,Population by household type (2022),pie,Universe: Households
+stat-26,"Youth population, sex & age","Number of children under 18 
+        
+            (2018-2021)",stat,
+chart-pie-demographics-child_sex,"Youth population, sex & age",Distribution of youth by sex (2022),pie,Universe: Population under 18 years of age
+chart-pie-demographics-child_age-distribution_by_category,"Youth population, sex & age",Distribution of youth by age (2022),pie,Universe: Population under 18 years of age
+stat-27,Income,"Per capita income 
+        
+            (2018-2021)",stat,
+stat-28,Income,"Median household income 
+        
+            (2018-2021)",stat,
+chart-histogram-economics-income-household_distribution,Income,Household income (2022),histogram,Universe: Households
+stat-29,Poverty,"Persons below poverty line 
+        
+            (2018-2021)",stat,
+chart-grouped_column-economics-poverty-poverty_family_educational_attainment,Poverty,Family poverty rate by educational attainment of householder (2022),grouped_column,Universe: Families
+stat-30,Vehicle availabilty,"Mean number of vehicles available 
+        
+            (2022)",stat,
+chart-histogram-economics-employment-distribution_vehicle_availabilty,Vehicle availabilty,"Vehicle available to workers, 16 years and over (2022)",histogram,Universe: Workers 16 years and over
+stat-31,Registered voter ages,Total registered voters (2023),stat,
+stat-32,Registered voter ages,"Total population 18 years and older 
+        
+            (2022)",stat,
+chart-column-housing-units-voter_age_distribution,Registered voter ages,Distribution of registered voters by age group (2023),column,Universe: Total registered voters
+stat-33,School enrollment,"Number of children 5 to 9 years enrolled in school 
+        
+            (2022)",stat,
+stat-34,School enrollment,"Number of children 5 to 9 years not enrolled in school 
+        
+            (2022)",stat,
+chart-grouped_column-social-enrollment-youth_school_enrollment_grouped,School enrollment,School enrollment for 5 to 9 year olds by school type and sex (2022),grouped_column,Universe: Population 5 to 9 years
+stat-35,High school graduation,"Graduation Rate 
+        
+            (2023)",stat,
+chart-pie-social-graduation_chart_data,High school graduation,,pie,Universe: Number of students in the class that were on schedule to graduate in 2019
+stat-36,High school graduation,"Number of licensed child care facilities 
+        
+            (2023)",stat,
+chart-column-social-childcare-childcare_facilities_chart_data,High school graduation,Licensed child care facilities by type (2023),column,Universe: Licensed child care facilities
+chart-column-social-childcare-childcare_programs_chart_data,High school graduation,Free child care programs by type (2023),column,Universe: Licensed child care facilities
+stat-37,High school graduation,"Total capacity of licensed child care facilities 
+        
+            (2023)",stat,
+chart-column-social-childcare-childcare_capacity_chart_data,High school graduation,"Percent of total capacity in free child care programs, by program type (2023)",column,Universe: Total capacity in free child care programs

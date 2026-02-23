@@ -1,4 +1,4 @@
-id,name,sort_order,indicator_filter_type_id
+﻿id,name,sort_order,indicator_filter_type_id
 1,Male,1,1
 2,Female,2,1
 3,Under 5,1,2
@@ -19,7 +19,7 @@ id,name,sort_order,indicator_filter_type_id
 18,80+,9,4
 19,Under 5,1,5
 20,5,1,5
-21,06-11,2,5
+21,6-11,2,5
 22,12-14,3,5
 23,15,4,5
 24,16-17,5,5
@@ -73,7 +73,6 @@ id,name,sort_order,indicator_filter_type_id
 72,Bicycle,4,16
 73,Walked,5,16
 74,Other,6,16
-75,Worked at home,1,16
 76,No vehicle available,2,17
 77,1 vehicle available,3,17
 78,2 vehicles available,4,17
@@ -83,8 +82,6 @@ id,name,sort_order,indicator_filter_type_id
 82,Married,1,18
 83,Single,2,18
 84,Married couples,1,19
-85,Male householder,2,19
-86,Female householder,3,19
 87,Non-family,4,19
 88,Occupied,1,20
 89,Vacant,2,20
@@ -126,6 +123,7 @@ id,name,sort_order,indicator_filter_type_id
 125,Post-grad,5,28
 126,Europe,1,29
 127,Asia,2,29
+75,Worked at  home,1,16
 128,Africa,3,29
 129,Oceania,4,29
 130,Latin America,5,29
@@ -142,4 +140,56 @@ id,name,sort_order,indicator_filter_type_id
 141,Gulf (2001-),5,31
 142,"Enrolled, public",1,32
 143,"Enrolled, private",2,32
-144,"Not enrolled",3,32
+144,Not enrolled,3,32
+85,Male householder,3,19
+86,Female householder,2,19
+145,Met standards,1,33
+146,Did not meet standards,2,33
+147,Graduated,1,34
+148,Not graduated,2,34
+149,Enrolled,1,35
+150,"Employed, graduated",2,35
+151,"Employed, not graduated",3,35
+152,"Unemployed or not in LF, graduated",4,35
+153,"Unemployed or not in LF, not graduated",5,35
+154,Less than adequate prenatal care,1,36
+155,Low birth weight,2,36
+156,Pre-term,3,36
+157,Teen mothers,4,36
+158,Licensed child care centers,1,37
+159,Group homes,2,37
+160,Family homes,3,37
+161,Early Head Start (age 0-3),1,38
+162,GSRP (age 4),2,38
+163,Head Start (age 3-5),3,38
+164,Seat gap,1,39
+165,Quality gap,2,39
+166,0-5,1,40
+167,0-2,2,40
+168,3-5,3,40
+169,Eligible for free lunch,1,41
+170,Eligible for reduced price lunch,2,41
+171,Not eligible,3,41
+172,Enrolled,1,42
+173,Not enrolled,2,42
+174,At or above,1,43
+175,Below,2,43
+176,All subjects,1,44
+177,Math,2,44
+178,Evidence-based reading and writing,3,44
+179,Changing schools,1,45
+180,Stable,2,45
+181,Chronically absent,1,46
+182,Not chronically absent,2,46
+183,Unsafe sleep,1,47
+184,Assult or maltreatment,2,47
+185,Other cause,3,47
+186,Fully immunized,1,48
+187,Partially immunized (minus Hep-A),2,48
+188,Partially immunized (minus Hep-A and PCV),3,48
+189,Under 6,1,49
+190,Under 18,2,49
+191,Under 5,1,50
+192,5-18,2,50
+193,Asthma,1,51
+194,Diabetes,2,51
