@@ -1,18 +1,18 @@
 id,name,sort_order,indicator_filter_type_id
 1,Total population 18 years and older,,
 2,Number of children under 18,,
-3,Male,,
-4,Female,,
-5,Under 5,,
-6,5 to 9,,
-7,10 to 14,,
-8,15 to 17,,
+3,Male,1,44
+4,Female,2,44
+5,Under 5,1,45
+6,5 to 9,2,45
+7,10 to 14,3,45
+8,15 to 17,4,45
 9,Per capita income,,
 10,Median household income,,
-11,Under $50K,,
-12,$50K - $100K,,
-13,$100K - $200K,,
-14,Over $200K,,
+11,Under $50K,1,46
+12,$50K - $100K,2,46
+13,$100K - $200K,3,46
+14,Over $200K,4,46
 15,Persons below poverty line,,
 16,Children (Under 18) below poverty line,,
 17,Non-poverty,,
@@ -24,28 +24,28 @@ id,name,sort_order,indicator_filter_type_id
 23,14-Dec,,
 24,15,,
 25,16-17,,
-26,Married couples,,
-27,Less than high school graduate,,
-28,High school graduate (includes equivalency),,
-29,"Some college, associate's degree",,
-30,Bachelor's degree or higher,,
-31,"Male householder, no wife present",,
-32,Less than high school graduate,,
-33,High school graduate (includes equivalency),,
-34,"Some college, associate's degree",,
-35,Bachelor's degree or higher,,
-36,"Female householder, no husband present",,
-37,Less than high school graduate,,
-38,High school graduate (includes equivalency),,
-39,"Some college, associate's degree",,
-40,Bachelor's degree or higher,,
-41,Mean number of vehicles available,,
-42,No vehicle available,,
-43,1 vehicle available,,
-44,2 vehicles available,,
-45,3 vehicles available,,
-46,4 vehicles available,,
-47,5+ vehicles available,,
+26,Married couples,1,47
+27,Less than high school graduate,1,47
+28,High school graduate (includes equivalency),2,47
+29,"Some college, associate's degree",3,47
+30,Bachelor's degree or higher,4,47
+31,"Male householder, no wife present",2,47
+32,Less than high school graduate,1,47
+33,High school graduate (includes equivalency),2,47
+34,"Some college, associate's degree",3,47
+35,Bachelor's degree or higher,4,47
+36,"Female householder, no husband present",3,47
+37,Less than high school graduate,1,47
+38,High school graduate (includes equivalency),2,47
+39,"Some college, associate's degree",3,47
+40,Bachelor's degree or higher,4,47
+41,Mean number of vehicles available,1,48
+42,No vehicle available,2,48
+43,1 vehicle available,3,48
+44,2 vehicles available,4,48
+45,3 vehicles available,5,48
+46,4 vehicles available,6,48
+47,5+ vehicles available,7,48
 48,Married couple,1,3
 49,Male householder,2,3
 50,Female householder,3,3
@@ -53,10 +53,10 @@ id,name,sort_order,indicator_filter_type_id
 52,Percent of households with children under 18,,
 53,Number of households,,
 54,Persons per household,,
-55,Married couples,,
-56,Male householder,,
-57,Female householder,,
-58,Non-family,,
+55,Married couples,1,43
+56,Male householder,2,43
+57,Female householder,3,43
+58,Non-family,4,43
 59,Number of housing units,,
 60,Owner Occupied,1,1
 61,Renter Occupied,2,1
@@ -84,59 +84,59 @@ id,name,sort_order,indicator_filter_type_id
 83,White,8,2
 84,Owner,1,2
 85,Renter,2,2
-86,Not mortgaged,,
-87,With a mortgage,,
-88,No cash rent,,
-89,With cash rent,,
-90,No bedrooms,,
-91,One bedroom,,
-92,Two bedrooms,,
-93,Three bedrooms,,
-94,Rent Less than $200,,
-95,Rent $200 to $299,,
-96,Rent $300 to $499,,
-97,Rent $500 to $749,,
-98,Rent $750 to $999,,
-99,"Rent $1,000 or More",,
-100,Under $50K,,
-101,$50K - $100K,,
-102,$100K - $150K,,
-103,$150K - $200K,,
-104,$200K - $300K,,
-105,$300K - $500K,,
-106,$500K - $1M,,
-107,Over $1M,,
+86,Not mortgaged,1,25
+87,With a mortgage,2,25
+88,No cash rent,3,25
+89,With cash rent,4,25
+90,No bedrooms,1,26
+91,One bedroom,2,16
+92,Two bedrooms,3,26
+93,Three bedrooms,4,26
+94,Rent Less than $200,1,27
+95,Rent $200 to $299,2,27
+96,Rent $300 to $499,3,27
+97,Rent $500 to $749,4,27
+98,Rent $750 to $999,5,27
+99,"Rent $1,000 or More",6,27
+100,Under $50K,1,28
+101,$50K - $100K,2,28
+102,$100K - $150K,3,28
+103,$150K - $200K,4,28
+104,$200K - $300K,5,28
+105,$300K - $500K,6,28
+106,$500K - $1M,7,28
+107,Over $1M,8,28
 108,Total value of owner-occupied housing units,,
-109,Housing costs are less than 30% of household income in the past 12 months,,
-110,Renter occupied,,
-111,Owner with mortgage,,
-112,Owner without mortgage,,
-113,Housing costs are 30% - 49.9% of household income in the past 12 months,,
-114,Renter occupied,,
-115,Owner with mortgage,,
-116,Owner without mortgage,,
-117,Housing costs are 50% or more of household income in the past 12 months,,
-118,Renter occupied,,
-119,Owner with mortgage,,
-120,Owner without mortgage,,
-121,No bedrooms,,
-122,One bedroom,,
-123,Two bedrooms,,
-124,Three bedrooms,,
-125,Four bedrooms,,
-126,5 or more bedrooms,,
-127,No selected conditions,,
-128,One selected condition,,
-129,Two selected conditions,,
-130,Three selected conditions,,
-131,Four selected conditions,,
-132,No selected conditions,,
-133,One selected condition,,
-134,Two selected conditions,,
-135,Three selected conditions,,
-136,Four selected conditions,,
-137,Not included,,
-138,Included,,
+109,Housing costs are less than 30% of household income in the past 12 months,1,29
+110,Renter occupied,1,29
+111,Owner with mortgage,2,29
+112,Owner without mortgage,3,29
+113,Housing costs are 30% - 49.9% of household income in the past 12 months,2,29
+114,Renter occupied,1,29
+115,Owner with mortgage,2,29
+116,Owner without mortgage,3,29
+117,Housing costs are 50% or more of household income in the past 12 months,3,29
+118,Renter occupied,1,29
+119,Owner with mortgage,2,29
+120,Owner without mortgage,2,29
+121,No bedrooms,1,36
+122,One bedroom,2,36
+123,Two bedrooms,3,36
+124,Three bedrooms,4,36
+125,Four bedrooms,5,36
+126,5 or more bedrooms,6,36
+127,No selected conditions,1,38
+128,One selected condition,2,38
+129,Two selected conditions,3,38
+130,Three selected conditions,4,38
+131,Four selected conditions,5,38
+132,No selected conditions,1,39
+133,One selected condition,2,39
+134,Two selected conditions,3,39
+135,Three selected conditions,4,39
+136,Four selected conditions,5,39
+137,Not included,1,37
+138,Included,2,37
 139,Total number of vacant housing units,,
 140,Percent of housing units vacant,,
 141,Total number of demolitions,,
@@ -168,26 +168,26 @@ id,name,sort_order,indicator_filter_type_id
 167,New,4,6
 168,Other,5,6
 169,Total number of blight tickets,,
-170,BSEED,,
-171,BSEED Environmental Affairs,,
-172,Detroit Police Department,,
-173,January,,
-174,February,,
-175,March,,
-176,April,,
-177,May,,
-178,June,,
-179,July,,
-180,August,,
-181,September,,
-182,October,,
-183,November,,
-184,December,,
-185,No cert. of compliance,,
-186,Weeds / plant growth,,
-187,Bulk solid waste accumulation,,
-188,No rental cert.,,
-189,Other,,
+170,BSEED,1,40
+171,BSEED Environmental Affairs,2,40
+172,Detroit Police Department,3,40
+173,January,1,41
+174,February,2,41
+175,March,3,41
+176,April,4,41
+177,May,5,41
+178,June,6,41
+179,July,7,41
+180,August,8,41
+181,September,9,41
+182,October,10,41
+183,November,11,41
+184,December,12,41
+185,No cert. of compliance,1,42
+186,Weeds / plant growth,2,42
+187,Bulk solid waste accumulation,3,42
+188,No rental cert.,4,42
+189,Other,5,42
 190,Total number of transactions,,
 191,January,,
 192,February,,
@@ -201,24 +201,24 @@ id,name,sort_order,indicator_filter_type_id
 200,October,,
 201,November,,
 202,December,,
-203,QC,,
-204,AFF,,
-205,PTA,,
-206,OTH,,
-207,WD,,
-208,CD,,
-209,LC,,
-210,MLC,,
-211,"Less than $1,000",,
-212,"$1,000 - $4,999",,
-213,"$5,000 - $9,999",,
-214,"$10,000 - $24,999",,
-215,"$25,000 - $49,999",,
-216,"$50,000 - $99,999",,
-217,"$100,000 - $499,999",,
-218,"$500,000 - $999,999",,
-219,"$1,000,000 - $4,999,999",,
-220,"Greater than $5,000,000",,
+203,QC,1,11
+204,AFF,2,11
+205,PTA,3,11
+206,OTH,4,11
+207,WD,5,11
+208,CD,6,11
+209,LC,7,11
+210,MLC,8,11
+211,"Less than $1,000",1,12
+212,"$1,000 - $4,999",2,12
+213,"$5,000 - $9,999",3,12
+214,"$10,000 - $24,999",4,12
+215,"$25,000 - $49,999",5,12
+216,"$50,000 - $99,999",6,12
+217,"$100,000 - $499,999",7,12
+218,"$500,000 - $999,999",8,12
+219,"$1,000,000 - $4,999,999",9,12
+220,"Greater than $5,000,000",10,12
 221,Total property sales,,
 222,Bank sale not used,,
 223,Bank sale used,,
@@ -234,145 +234,145 @@ id,name,sort_order,indicator_filter_type_id
 233,Maximum price sold,,
 234,Median price sold,,
 235,Total registered voters,,
-236,18-24,,
-237,25-34,,
-238,35-54,,
-239,55-64,,
-240,65+,,
+236,18-24,1,49
+237,25-34,2,49
+238,35-54,3,49
+239,55-64,4,49
+240,65+,5,49
 241,Total properties,,
-242,"$1-$4,000",,
-243,"$4,001 - $8,000",,
-244,"$8,001 - $12,000",,
-245,"$12,001 - $16,000",,
-246,"$16,001 - $20,000",,
-247,"$20,001 - $24,000",,
-248,"$24,001 - $28,000",,
-249,"$28,001 - $32,000",,
-250,"$32,001 - $36,000",,
-251,"$36,001 - $40,000",,
-252,"Greater than $40,000",,
-253,0%,,
-254,0.1%-99.9%,,
-255,100%,,
-256,Taxable,,
-257,Government,,
-258,Pilot,,
-259,Hospital,,
-260,Charity,,
-261,Religious,,
-262,Education,,
-263,Project,,
-264,Railroad,,
-265,Other,,
+242,"$1-$4,000",1,31
+243,"$4,001 - $8,000",2,31
+244,"$8,001 - $12,000",3,31
+245,"$12,001 - $16,000",4,31
+246,"$16,001 - $20,000",5,31
+247,"$20,001 - $24,000",6,31
+248,"$24,001 - $28,000",7,31
+249,"$28,001 - $32,000",8,31
+250,"$32,001 - $36,000",9,31
+251,"$36,001 - $40,000",10,31
+252,"Greater than $40,000",11,31
+253,0%,1,30
+254,0.1%-99.9%,2,30
+255,100%,3,30
+256,Taxable,1,32
+257,Government,2,32
+258,Pilot,3,32
+259,Hospital,4,32
+260,Charity,5,32
+261,Religious,6,32
+262,Education,7,32
+263,Project,8,32
+264,Railroad,9,32
+265,Other,10,32
 266,Mean taxable value over $0,,
 267,Median taxable value over $0,,
 268,Total Taxable Value,,
 269,Total properties owned by the DLBA,,
 270,Total DLBA sales,,
-271,Auction,,
-272,Community partner,,
-273,Side lot,,
-274,Own-it-now,,
+271,Auction,1,33
+272,Community partner,2,33
+273,Side lot,3,33
+274,Own-it-now,4,33
 275,Investor,,
 276,Homebuyer,,
 277,Unknown,,
-278,"Less than $1,999",,
-279,"$2,000 - $3,999",,
-280,"$4,000 - $5,999",,
-281,"$6,000 - $7,999",,
-282,"$8,000 - $9,999",,
-283,"$10,000 or greater",,
-284,Accessory structure,,
-285,Commercial structure,,
-286,Residential structure,,
-287,Industrial structure,,
-288,Residential lot,,
-289,Non-residential lot,,
+278,"Less than $1,999",1,34
+279,"$2,000 - $3,999",2,34
+280,"$4,000 - $5,999",3,34
+281,"$6,000 - $7,999",4,34
+282,"$8,000 - $9,999",5,34
+283,"$10,000 or greater",6,34
+284,Accessory structure,1,35
+285,Commercial structure,2,35
+286,Residential structure,3,35
+287,Industrial structure,4,35
+288,Residential lot,5,35
+289,Non-residential lot,6,35
 290,Number of sewer backups,,
-291,Covered,,
-292,Uncovered,,
-293,more than 1 mile/0.1 miles,,
-294,less than 1 mile/0.1 miles,,
-295,Covered,,
-296,Uncovered,,
+291,Covered,1,18
+292,Uncovered,2,18
+293,more than 1 mile/0.1 miles,1,19
+294,less than 1 mile/0.1 miles,2,19
+295,Covered,1,20
+296,Uncovered,2,20
 297,Daily Average PM2.5 concentration,,
-298,more than 1/4 mile,,
-299,less than 1/4 mile,,
-300,Covered,,
-301,Uncovered,,
+298,more than 1/4 mile,1,23
+299,less than 1/4 mile,2,23
+300,Covered,1,24
+301,Uncovered,2,24
 302,Walkability Score,,
 303,Percent of properties transacted,,
 304,Average price sold,,
 305,Total property sales,,
 306,Number of probable rental units,,
-307,Rental,,
-308,Non-rental,,
-309,Lead Certificate,,
-310,No Lead Certificate,,
-311,Corporate,,
-312,Non-corporate,,
-313,Transacted,,
-314,Non-transacted,,
-315,Detroit Taxpayer,,
-316,Michigan Taxpayer,,
-317,Out-of-State Taxpayer,,
-318,Type 1,,
-319,Type 2,,
-320,Type 3,,
-321,Type 4,,
-322,Alone,,
-323,Not Alone,,
-324,With Internet,,
-325,Without Internet,,
+307,Rental,1,13
+308,Non-rental,2,13
+309,Lead Certificate,1,17
+310,No Lead Certificate,2,17
+311,Corporate,1,13
+312,Non-corporate,2,13
+313,Transacted,1,14
+314,Non-transacted,2,14
+315,Detroit Taxpayer,1,15
+316,Michigan Taxpayer,2,15
+317,Out-of-State Taxpayer,3,15
+318,Type 1,1,16
+319,Type 2,2,16
+320,Type 3,3,16
+321,Type 4,4,16
+322,Alone,1,21
+323,Not Alone,2,21
+324,With Internet,1,22
+325,Without Internet,2,22
 326,Total tax foreclosures,,
 327,Number of licensed child care facilities,,
-328,Licensed child care centers,,
-329,Group homes,,
-330,Family homes,,
-331,Early Head Start (age 0-3),,
-332,GSRP (age 4),,
-333,Head Start (age 3-5),,
+328,Licensed child care centers,1,52
+329,Group homes,2,52
+330,Family homes,3,52
+331,Early Head Start (age 0-3),1,53
+332,GSRP (age 4),2,53
+333,Head Start (age 3-5),3,53
 334,Total capacity of licensed child care facilities,,
-335,Early Head Start programs,,
-336,GSRP programs,,
-337,Head Start programs,,
+335,Early Head Start programs,1,54
+336,GSRP programs,2,54
+337,Head Start programs,3,54
 338,Number of children 5 to 9 years enrolled in school,,
 339,Number of children 5 to 9 years not enrolled in school,,
-340,"Enrolled, public",,
-341,Male,,
-342,Female,,
-343,"Enrolled, private",,
-344,Male,,
-345,Female,,
-346,Not enrolled,,
-347,Male,,
-348,Female,,
+340,"Enrolled, public",1,50
+341,Male,1,50
+342,Female,2,50
+343,"Enrolled, private",2,50
+344,Male,1,50
+345,Female,2,50
+346,Not enrolled,3,50
+347,Male,1,50
+348,Female,2,50
 349,Graduation Rate,,
-350,Graduated,,
-351,Not Graduated,,
+350,Graduated,1,51
+351,Not Graduated,2,51
 352,Number of evictions filed,,
-353,Land Contract,,
-354,Garnishment,,
-355,1980s,,
-356,Appeal,,
-357,Non-payment,,
-358,Haz/inj,,
-359,Trespass,,
-360,Money Judgment,,
+353,Land Contract,1,7
+354,Garnishment,2,7
+355,1980s,3,7
+356,Appeal,4,7
+357,Non-payment,5,7
+358,Haz/inj,6,7
+359,Trespass,7,7
+360,Money Judgment,8,7
 361,Cases filed where the landlord has a certificate of compliance,,
-362,represented,,
-363,unrepresented,,
-364,represented,,
-365,unrepresented,,
-366,January,,
-367,February,,
-368,March,,
-369,April,,
-370,May,,
-371,June,,
-372,July,,
-373,August,,
-374,September,,
-375,October,,
-376,November,,
-377,December,,
+362,represented,1,8
+363,unrepresented,2,8
+364,represented,1,9
+365,unrepresented,2,9
+366,January,1,10
+367,February,2,10
+368,March,3,10
+369,April,4,10
+370,May,5,10
+371,June,6,10
+372,July,7,10
+373,August,8,10
+374,September,9,10
+375,October,10,10
+376,November,11,10
+377,December,12,10
