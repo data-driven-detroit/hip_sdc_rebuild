@@ -15,15 +15,15 @@ id,name,sort_order,indicator_filter_type_id
 14,Over $200K,4,46
 15,Persons below poverty line,,
 16,Children (Under 18) below poverty line,,
-17,Non-poverty,,
-18,Poverty,,
-19,Non-poverty,,
-20,Under 5,,
-21,5,,
-22,11-Jun,,
-23,14-Dec,,
-24,15,,
-25,16-17,,
+17,Non-poverty,1,57
+18,Poverty,2,57
+19,Non-poverty,1,57
+20,Under 5,1,58
+21,5,2,58
+22,6 to 11,3,58
+23,12 to 14,4,58
+24,15,5,58
+25,16-17,6,58
 26,Married couples,1,47
 27,Less than high school graduate,1,47
 28,High school graduate (includes equivalency),2,47
@@ -89,7 +89,7 @@ id,name,sort_order,indicator_filter_type_id
 88,No cash rent,3,25
 89,With cash rent,4,25
 90,No bedrooms,1,26
-91,One bedroom,2,16
+91,One bedroom,2,26
 92,Two bedrooms,3,26
 93,Three bedrooms,4,26
 94,Rent Less than $200,1,27
@@ -189,18 +189,18 @@ id,name,sort_order,indicator_filter_type_id
 188,No rental cert.,4,42
 189,Other,5,42
 190,Total number of transactions,,
-191,January,,
-192,February,,
-193,March,,
-194,April,,
-195,May,,
-196,June,,
-197,July,,
-198,August,,
-199,September,,
-200,October,,
-201,November,,
-202,December,,
+191,January,1,55
+192,February,2,55
+193,March,3,55
+194,April,4,55
+195,May,5,55
+196,June,6,55
+197,July,7,55
+198,August,8,55
+199,September,9,55
+200,October,10,55
+201,November,11,55
+202,December,12,55
 203,QC,1,11
 204,AFF,2,11
 205,PTA,3,11
@@ -220,16 +220,16 @@ id,name,sort_order,indicator_filter_type_id
 219,"$1,000,000 - $4,999,999",9,12
 220,"Greater than $5,000,000",10,12
 221,Total property sales,,
-222,Bank sale not used,,
-223,Bank sale used,,
-224,Exempt,,
-225,Foreclosure,,
-226,Multi parcel,,
-227,No consideration,,
-228,Not arms length,,
-229,Valid arms length,,
-230,Special acts,,
-231,Other sales terms,,
+222,Bank sale not used,1,56
+223,Bank sale used,2,56
+224,Exempt,3,56
+225,Foreclosure,4,56
+226,Multi parcel,5,56
+227,No consideration,6,56
+228,Not arms length,7,56
+229,Valid arms length,8,56
+230,Special acts,9,56
+231,Other sales terms,10,56
 232,Minimum price sold,,
 233,Maximum price sold,,
 234,Median price sold,,
@@ -273,9 +273,9 @@ id,name,sort_order,indicator_filter_type_id
 272,Community partner,2,33
 273,Side lot,3,33
 274,Own-it-now,4,33
-275,Investor,,
-276,Homebuyer,,
-277,Unknown,,
+275,Investor,1,59
+276,Homebuyer,2,59
+277,Unknown,3,59
 278,"Less than $1,999",1,34
 279,"$2,000 - $3,999",2,34
 280,"$4,000 - $5,999",3,34

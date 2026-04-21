@@ -1,1 +1,60 @@
 id,name
+1,Occupancy status
+2,Race by tenure
+3,Family type
+4,Demolition contractor
+5,Month (demolitions)
+6,Building permit type
+7,Eviction case type
+8,Tenant legal representation
+9,Landlord legal representation
+10,Month (default judgments)
+11,Deed type
+12,Sale price range
+13,Rental/corporate status
+14,Transaction status
+15,Owner location
+16,Landlord type
+17,Lead clearance status
+18,Tree canopy coverage
+19,Toxic hazard proximity
+20,Impervious surface coverage
+21,Living arrangement (65+)
+22,Internet access
+23,Climate amenity proximity
+24,CDO/GRO coverage
+25,Tenure detail
+26,Rental unit size
+27,Rent distribution
+28,Housing value distribution
+29,Housing burden
+30,PRE status
+31,Taxable value distribution
+32,Tax-exempt status
+33,DLBA sale type
+34,DLBA auction price
+35,DLBA property class
+36,Bedroom distribution
+37,Utilities inclusion
+38,Owner housing conditions
+39,Renter housing conditions
+40,Blight department
+41,Month (blight violations)
+42,Blight violation type
+43,Household type
+44,Sex
+45,Youth age group
+46,Household income range
+47,Family poverty by education
+48,Vehicle availability
+49,Voter age group
+50,School enrollment by type and sex
+51,Graduation status
+52,Licensed child care type
+53,Free child care program type
+54,Child care capacity type
+55,Month (property transactions)
+56,Sales terms
+57,Poverty status
+58,Children's age group
+59,DLBA buyer type
