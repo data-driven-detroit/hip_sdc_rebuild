@@ -17,7 +17,7 @@ id,name,sort_order,indicator_filter_type_id
 16,Children (Under 18) below poverty line,1,0
 17,Non-poverty,1,57
 18,Poverty,2,57
-19,Non-Poverty,1,57
+19,Non-poverty,1,57
 20,Under 5,1,58
 21,5,2,58
 22,6 to 11,3,58
