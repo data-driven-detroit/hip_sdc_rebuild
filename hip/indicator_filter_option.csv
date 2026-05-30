@@ -1,20 +1,20 @@
 id,name,sort_order,indicator_filter_type_id
-1,Total population 18 years and older,1,
-2,Number of children under 18,1,
+1,Total population 18 years and older,1,0
+2,Number of children under 18,1,0
 3,Male,1,44
 4,Female,2,44
 5,Under 5,1,45
 6,5 to 9,2,45
 7,10 to 14,3,45
 8,15 to 17,4,45
-9,Per capita income,1,
-10,Median household income,1,
+9,Per capita income,1,0
+10,Median household income,1,0
 11,Under $50K,1,46
 12,$50K - $100K,2,46
 13,$100K - $200K,3,46
 14,Over $200K,4,46
-15,Persons below poverty line,1,
-16,Children (Under 18) below poverty line,1,
+15,Persons below poverty line,1,0
+16,Children (Under 18) below poverty line,1,0
 17,Non-poverty,1,57
 18,Poverty,2,57
 19,Non-poverty,1,57
@@ -49,15 +49,15 @@ id,name,sort_order,indicator_filter_type_id
 48,Married couple,1,3
 49,Male householder,2,3
 50,Female householder,3,3
-51,Percent of families with related children under 18,1,
-52,Percent of households with children under 18,1,
-53,Number of households,1,
-54,Persons per household,1,
+51,Percent of families with related children under 18,1,0
+52,Percent of households with children under 18,1,0
+53,Number of households,1,0
+54,Persons per household,1,0
 55,Married couples,1,43
 56,Male householder,2,43
 57,Female householder,3,43
 58,Non-family,4,43
-59,Number of housing units,1,
+59,Number of housing units,1,0
 60,Owner Occupied,1,1
 61,Renter Occupied,2,1
 62,American Indian or Alaska Native,1,2
@@ -106,7 +106,7 @@ id,name,sort_order,indicator_filter_type_id
 105,$300K - $500K,6,28
 106,$500K - $1M,7,28
 107,Over $1M,8,28
-108,Total value of owner-occupied housing units,1,
+108,Total value of owner-occupied housing units,1,0
 109,Housing costs are less than 30% of household income in the past 12 months,1,29
 110,Renter occupied,1,29
 111,Owner with mortgage,2,29
@@ -137,10 +137,10 @@ id,name,sort_order,indicator_filter_type_id
 136,Four selected conditions,5,39
 137,Not included,1,37
 138,Included,2,37
-139,Total number of vacant housing units,1,
-140,Percent of housing units vacant,1,
-141,Total number of demolitions,1,
-142,Median demolition cost,1,
+139,Total number of vacant housing units,1,0
+140,Percent of housing units vacant,1,0
+141,Total number of demolitions,1,0
+142,Median demolition cost,1,0
 143,"Adamo Group, Inc",1,4
 144,Homrich,2,4
 145,DMC Consultants,3,4
@@ -160,14 +160,14 @@ id,name,sort_order,indicator_filter_type_id
 159,October,10,5
 160,November,11,5
 161,December,12,5
-162,Total number of building permits,1,
-163,Median estimated permit cost,1,
+162,Total number of building permits,1,0
+163,Median estimated permit cost,1,0
 164,Alterations,1,6
 165,Change of Use,2,6
 166,Fire Repairs,3,6
 167,New,4,6
 168,Other,5,6
-169,Total number of blight tickets,1,
+169,Total number of blight tickets,1,0
 170,BSEED,1,40
 171,BSEED Environmental Affairs,2,40
 172,Detroit Police Department,3,40
@@ -188,7 +188,7 @@ id,name,sort_order,indicator_filter_type_id
 187,Bulk solid waste accumulation,3,42
 188,No rental cert.,4,42
 189,Other,5,42
-190,Total number of transactions,1,
+190,Total number of transactions,1,0
 191,January,1,55
 192,February,2,55
 193,March,3,55
@@ -219,7 +219,7 @@ id,name,sort_order,indicator_filter_type_id
 218,"$500,000 - $999,999",8,12
 219,"$1,000,000 - $4,999,999",9,12
 220,"Greater than $5,000,000",10,12
-221,Total property sales,1,
+221,Total property sales,1,0
 222,Bank sale not used,1,56
 223,Bank sale used,2,56
 224,Exempt,3,56
@@ -230,16 +230,16 @@ id,name,sort_order,indicator_filter_type_id
 229,Valid arms length,8,56
 230,Special acts,9,56
 231,Other sales terms,10,56
-232,Minimum price sold,1,
-233,Maximum price sold,1,
-234,Median price sold,1,
-235,Total registered voters,1,
+232,Minimum price sold,1,0
+233,Maximum price sold,1,0
+234,Median price sold,1,0
+235,Total registered voters,1,0
 236,18-24,1,49
 237,25-34,2,49
 238,35-54,3,49
 239,55-64,4,49
 240,65+,5,49
-241,Total properties,1,
+241,Total properties,1,0
 242,"$1-$4,000",1,31
 243,"$4,001 - $8,000",2,31
 244,"$8,001 - $12,000",3,31
@@ -264,11 +264,11 @@ id,name,sort_order,indicator_filter_type_id
 263,Project,8,32
 264,Railroad,9,32
 265,Other,10,32
-266,Mean taxable value over $0,1,
-267,Median taxable value over $0,1,
-268,Total Taxable Value,1,
-269,Total properties owned by the DLBA,1,
-270,Total DLBA sales,1,
+266,Mean taxable value over $0,1,0
+267,Median taxable value over $0,1,0
+268,Total Taxable Value,1,0
+269,Total properties owned by the DLBA,1,0
+270,Total DLBA sales,1,0
 271,Auction,1,33
 272,Community partner,2,33
 273,Side lot,3,33
@@ -288,23 +288,23 @@ id,name,sort_order,indicator_filter_type_id
 287,Industrial structure,4,35
 288,Residential lot,5,35
 289,Non-residential lot,6,35
-290,Number of sewer backups,1,
+290,Number of sewer backups,1,0
 291,Covered,1,18
 292,Uncovered,2,18
 293,more than 1 mile/0.1 miles,1,19
 294,less than 1 mile/0.1 miles,2,19
 295,Covered,1,20
 296,Uncovered,2,20
-297,Daily Average PM2.5 concentration,1,
+297,Daily Average PM2.5 concentration,1,0
 298,more than 1/4 mile,1,23
 299,less than 1/4 mile,2,23
 300,Covered,1,24
 301,Uncovered,2,24
-302,Walkability Score,1,
-303,Percent of properties transacted,1,
-304,Average price sold,1,
-305,Total property sales,1,
-306,Number of probable rental units,1,
+302,Walkability Score,1,0
+303,Percent of properties transacted,1,0
+304,Average price sold,1,0
+305,Total property sales,1,0
+306,Number of probable rental units,1,0
 307,Rental,1,13
 308,Non-rental,2,13
 309,Lead Certificate,1,17
@@ -324,20 +324,20 @@ id,name,sort_order,indicator_filter_type_id
 323,Not Alone,2,21
 324,With Internet,1,22
 325,Without Internet,2,22
-326,Total tax foreclosures,1,
-327,Number of licensed child care facilities,1,
+326,Total tax foreclosures,1,0
+327,Number of licensed child care facilities,1,0
 328,Licensed child care centers,1,52
 329,Group homes,2,52
 330,Family homes,3,52
 331,Early Head Start (age 0-3),1,53
 332,GSRP (age 4),2,53
 333,Head Start (age 3-5),3,53
-334,Total capacity of licensed child care facilities,1,
+334,Total capacity of licensed child care facilities,1,0
 335,Early Head Start programs,1,54
 336,GSRP programs,2,54
 337,Head Start programs,3,54
-338,Number of children 5 to 9 years enrolled in school,1,
-339,Number of children 5 to 9 years not enrolled in school,1,
+338,Number of children 5 to 9 years enrolled in school,1,0
+339,Number of children 5 to 9 years not enrolled in school,1,0
 340,"Enrolled, public",1,50
 341,Male,1,50
 342,Female,2,50
@@ -347,10 +347,10 @@ id,name,sort_order,indicator_filter_type_id
 346,Not enrolled,3,50
 347,Male,1,50
 348,Female,2,50
-349,Graduation Rate,1,
+349,Graduation Rate,1,0
 350,Graduated,1,51
 351,Not Graduated,2,51
-352,Number of evictions filed,1,
+352,Number of evictions filed,1,0
 353,Land Contract,1,7
 354,Garnishment,2,7
 355,1980s,3,7
@@ -359,7 +359,7 @@ id,name,sort_order,indicator_filter_type_id
 358,Haz/inj,6,7
 359,Trespass,7,7
 360,Money Judgment,8,7
-361,Cases filed where the landlord has a certificate of compliance,1,
+361,Cases filed where the landlord has a certificate of compliance,1,0
 362,represented,1,8
 363,unrepresented,2,8
 364,represented,1,9
