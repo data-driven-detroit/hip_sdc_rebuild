@@ -1,0 +1,9 @@
+src_id,raw_table,src_type,date_start,date_end,year_start,year_end,qtr_start,qtr_end
+1,ipds.raw.detodp_assessors_20260131,Detroit Assessor's Office,2025-01-01,2025-12-31,2025,2025,1,4
+2,ipds.raw.detodp_blight_violations_20260131,Detroit Buildings;Safety Engineering and Environmental Department,2025-01-01,2025-12-31,2025,2025,1,4
+3,ipds.raw.detodp_building_permits_20260202,Detroit Buildings;Safety Engineering and Environmental Department,2025-01-01,2025-12-31,2025,2025,1,4
+4,ipds.raw.detodp_demolitions_residential_completed_20260506,Detroit Buildings;Safety Engineering and Environmental Department,2025-01-01,2025-12-31,2025,2025,1,4
+5,ipds.raw.detodp_dlba_owned_20260108,Detroit Land Bank Authority,2025-01-01,2025-12-31,2025,2025,1,4
+6,ipds.raw.detodp_dlba_ownitnow_20260506,Detroit Land Bank Authority,2025-01-01,2025-12-31,2025,2025,1,4
+7,-,D3 Open Data Portal; Michigan Center for Educational Performance,2025-01-01,2025-12-31,2025,2025,1,4
+8,ipds.raw.valassis_vnefplus_mi_20250501_det,Vericast VNEF Plus Database; Data Driven Detroit,2025-01-01,2025-12-31,2025,2025,1,4
